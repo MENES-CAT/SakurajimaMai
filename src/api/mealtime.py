@@ -17,7 +17,7 @@ def meal_remind(key):
         'lunch': '午饭',
         'dinner': '晚饭',
     }
-    info = f'麻衣学姐来提醒你记得按时吃{meal[key]}哦～'
+    info = f'机器人来提醒你记得按时吃{meal[key]}哦～'
     send.sendmsg(title=info, msg=info)
 
 
